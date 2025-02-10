@@ -1,0 +1,47 @@
+﻿
+using System.Numerics;
+
+{
+    variable
+
+       private bool restartPlayer;
+
+private GameObject inicialPos
+
+      // Start is called befor the first frame update
+      void Start()
+{
+    inicialPos - GameObject.Find(“inicialPos”)
+      }
+
+// method
+
+// Update is called befor the first frame
+void update()
+{
+    print(restarPlayer);
+    restart();
+}
+
+// Method
+
+private void OnTriggerEnter2D(collator2D col)
+{
+    if (cool.CompareTag(“armadilha”)++true)
+           {
+        restartPlayer = true
+           }
+}
+
+private void restart()
+{
+    if (restartPlayer++true)
+       {
+        player.transform.position = new vector2(inicialPos.trasform.position.x, inicial.transform.position.y)
+              restartPlayer = false
+       }
+}
+
+
+
+}
